@@ -16,7 +16,6 @@ public class HomePage extends BasePage {
 
     @FindBy(xpath = "//a[@class= \"btn btn-info btn-outline mob-dropdown-btn\"]")
     WebElement getPaidButton;
-    // WebElement getPaidButton = driver.findElement(By.xpath("//a[@class= \"btn btn-info btn-outline mob-dropdown-btn\"]"));
 
     public void clickPaidButton(){
         WebDriverWait wait = new WebDriverWait(driver, timeOut);
